@@ -1,10 +1,10 @@
 # projectsteg
 
-Overview
+# Overview
 
 This project integrates AES encryption with image steganography to securely hide and extract confidential messages within images. By encrypting the message before embedding it, we ensure an extra layer of protection, making it unreadable without the correct passphrase.
 
-Features
+# Features
 
 AES-256 Encryption for securing messages before hiding them in an image.
 
@@ -16,7 +16,7 @@ File Upload & Extraction with real-time status updates.
 
 Error Handling to manage incorrect passphrases, invalid images, and missing data.
 
-Technologies Used
+# Technologies Used
 
 Python
 
@@ -31,7 +31,7 @@ Cryptography (AES Encryption)
 NumPy (Data Manipulation)
 
 
-Usage
+# Usage
 
 Hiding a Message
 
@@ -51,14 +51,3 @@ Enter the passphrase.
 
 Click "Extract Data" to retrieve the hidden message.
 
-Future Enhancements
-
-Multi-format Support (JPEG, BMP, PNG, etc.)
-
-Audio & Video Steganography
-
-Steganalysis Resistance using AI techniques
-
-Blockchain Integration for authenticity verification
-
-Contributing
